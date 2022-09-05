@@ -1,0 +1,73 @@
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pomodoroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(160, 70, 60, 0.205);
+    width: 500px;
+    height: 350px;
+}
+
+.ulItems {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    border: none;
+    background-color: inherit;
+    color: white;
+    cursor: pointer;
+    padding: 6px 8px;
+    font-size: 1.2rem;
+    transition: all 0.1s linear;
+}
+
+.buttonClicked {
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 6px 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(177, 90, 80);
+    border-radius: 6px;
+}
+
+.timeText {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 0px;
+}
+.startButton {
+    width: 200px;
+    padding: 10px 30px;
+    background-color: white;
+    color: salmon;
+    border: none;
+    box-shadow: 2px 5px 2px grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.startButton:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
+
+.actionText {
+    font-size: 1.2rem;
+}

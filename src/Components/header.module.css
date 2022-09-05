@@ -1,0 +1,30 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerRightUl {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.ulItem {
+    padding: 5px 8px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 4px grey;
+    cursor: pointer;
+}
+
+.lineBreak {
+    height: 1px;
+    background-color: grey;
+    border: none;
+}
